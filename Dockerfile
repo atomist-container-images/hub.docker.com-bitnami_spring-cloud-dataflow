@@ -1,12 +1,33 @@
-# Tags: latest, 2.9.4-debian-10-r22, 2.9.4, 2-debian-10, 2
+# Tags: latest, 2.9.4-debian-10-r29, 2.9.4, 2-debian-10, 2
 FROM bitnami/spring-cloud-dataflow:latest
-FROM bitnami/spring-cloud-dataflow:2.9.4-debian-10-r22
+FROM bitnami/spring-cloud-dataflow:2.9.4-debian-10-r29
 FROM bitnami/spring-cloud-dataflow:2.9.4
 FROM bitnami/spring-cloud-dataflow:2-debian-10
 FROM bitnami/spring-cloud-dataflow:2
 
 # Tags: _
 FROM bitnami/spring-cloud-dataflow:_
+
+# Tags: 2.9.4-debian-10-r28
+FROM bitnami/spring-cloud-dataflow:2.9.4-debian-10-r28
+
+# Tags: 2.9.4-debian-10-r27
+FROM bitnami/spring-cloud-dataflow:2.9.4-debian-10-r27
+
+# Tags: 2.9.4-debian-10-r26
+FROM bitnami/spring-cloud-dataflow:2.9.4-debian-10-r26
+
+# Tags: 2.9.4-debian-10-r25
+FROM bitnami/spring-cloud-dataflow:2.9.4-debian-10-r25
+
+# Tags: 2.9.4-debian-10-r24
+FROM bitnami/spring-cloud-dataflow:2.9.4-debian-10-r24
+
+# Tags: 2.9.4-debian-10-r23
+FROM bitnami/spring-cloud-dataflow:2.9.4-debian-10-r23
+
+# Tags: 2.9.4-debian-10-r22
+FROM bitnami/spring-cloud-dataflow:2.9.4-debian-10-r22
 
 # Tags: 2.9.4-debian-10-r21
 FROM bitnami/spring-cloud-dataflow:2.9.4-debian-10-r21
@@ -49,34 +70,3 @@ FROM bitnami/spring-cloud-dataflow:2.9.4-debian-10-r9
 
 # Tags: 2.9.4-debian-10-r8
 FROM bitnami/spring-cloud-dataflow:2.9.4-debian-10-r8
-
-# Tags: 2.9.4-debian-10-r7
-FROM bitnami/spring-cloud-dataflow:2.9.4-debian-10-r7
-
-# Tags: 2.9.4-debian-10-r6
-FROM bitnami/spring-cloud-dataflow:2.9.4-debian-10-r6
-
-# Tags: 2.9.4-debian-10-r5
-FROM bitnami/spring-cloud-dataflow:2.9.4-debian-10-r5
-
-# Tags: 2.9.4-debian-10-r4
-FROM bitnami/spring-cloud-dataflow:2.9.4-debian-10-r4
-
-# Tags: 2.9.4-debian-10-r3
-FROM bitnami/spring-cloud-dataflow:2.9.4-debian-10-r3
-
-# Tags: 2.9.4-debian-10-r2
-FROM bitnami/spring-cloud-dataflow:2.9.4-debian-10-r2
-
-# Tags: 2.9.4-debian-10-r1
-FROM bitnami/spring-cloud-dataflow:2.9.4-debian-10-r1
-
-# Tags: 2.9.4-debian-10-r0
-FROM bitnami/spring-cloud-dataflow:2.9.4-debian-10-r0
-
-# Tags: 2.9.3-debian-10-r10, 2.9.3
-FROM bitnami/spring-cloud-dataflow:2.9.3-debian-10-r10
-FROM bitnami/spring-cloud-dataflow:2.9.3
-
-# Tags: 2.9.3-debian-10-r9
-FROM bitnami/spring-cloud-dataflow:2.9.3-debian-10-r9
